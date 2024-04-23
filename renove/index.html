@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Renove Soluções Prediais</title>
+</head>
+<body>
+    <header class="container">
+        <div id="logo">
+            <img src="images/logo.png" alt="logotipo Renove">
+        </div>
+        <nav id="menu">
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Qualificações</a></li>
+                <li><a href="#">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="banner">
+            <div id="banner_content" class="container">
+                <img src="images/curva.png" id="curva">
+                <img src="images/predio.png" id="predio">
+                <div id="banner_txt">A RENOVE<br><small>DÁ CONTA DO TRABALHO</small></div>
+            </div>
+        </div>
+        <div id="content" class="container">
+            <div id="formulario">
+                <h2>Solicite uma Visita técnica</h2>
+                <form action="#" method="post" autocomplete="off">
+                    <label>
+                        <span>Seu nome:</span><input type="text" name="Nome" required>
+                    </label>
+                    <label>
+                        <span>Seu e-mail:</span><input type="email" name="Email" required>
+                    </label>
+                    <label>
+                        <span>Seu telefone:</span><input type="tel" name="Telefone" pattern="\([0-9]{2}\)[\s][0-9]{5}-[0-9]{4}" required>
+                        <small>*Preencha o telefone no formato (21)22222-2222</small>
+                    </label>
+                    <div><button type="submit">Enviar</button></div>
+                </form>
+            </div>
+            <section id="obras">
+                <h2>Obras realizadas</h2>
+                <article>
+                    <img src="images/reforma-predial2.png" alt="obra" class="retrato">
+                    <div>
+                        <h3>Título da obra</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, vel? Et accusantium dicta amet nihil ea a rerum earum.</p>
+                        <a href="#" class="btn">VEJA MAIS</a>
+                    </div>
+                </article>
+                <article>
+                    <img src="images/reforma-predial2.png" alt="obra" class="retrato">
+                    <div>
+                        <h3>Título da obra</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, vel? Et accusantium dicta amet nihil ea a rerum earum.</p>
+                        <a href="#" class="btn">VEJA MAIS</a>
+                    </div>
+                </article>
+            </section>
+        </div>
+    </main>
+    <footer class="container">
+        <div id="footer_text">Desenvolvido por (SEU NOME) </div>
+        <div id="footer_endereco">
+            <b>Endereço:</b><br>
+            Rua da Demonstração, 99<br>
+            Centro - Rio de Janeiro - RJ
+        </div>
+        <div id="footer_contatos">
+            <b>Contatos:</b><br>
+            Fixo <tel>21 9876-5432</tel>
+            <span>
+            WhatsApp <a href="https://wa.me//5521964162491?text=Olá quero uma visita técnica" target="_blank">21 96416-2491</a></span>
+        </div>
+    </footer>
+</body>
+</html>
