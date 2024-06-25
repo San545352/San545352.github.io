@@ -3,7 +3,7 @@
 //     document.body.append('Formulário submetido')
 // })
 // function Selecione(num) {
-//     let opc = parseInt(num);
+//     let opc = parseInt(num);}
 
 // }
 
@@ -28,32 +28,5 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-/* Botão de passar fotos */
-// $(document).ready(function(){
-//   var fotos = $("#fotos > img").length -1;
-//   var pos = 0;
-//   // $("#fotos > img:eq("+pos+")").addClass("ativa");
 
-//   $("#voltar").click(function(){
-//       if(pos > 0){
-//           pos -= 1;
-//           $("img.ativa").removeClass("ativa");
-//           $("#fotos > img:eq("+pos+")").addClass("ativa");
-//       }else{
-//           pos = 3;
-//           $("img.ativa").removeClass("ativa");
-//           $("#fotos > img:eq("+pos+")").addClass("ativa")
-//       }
-//   });
-//   $("#passar").click(function(){
-//       if(pos < fotos){
-//           pos += 1;
-//           $("img.ativa").removeClass("ativa");
-//           $("#fotos > img:eq("+pos+")").addClass("ativa");
-//       }else{
-//           pos = 0;
-//           $("img.ativa").removeClass("ativa");
-//           $("#fotos > img:eq("+pos+")").addClass("ativa");
-//       }
-//   });
 
